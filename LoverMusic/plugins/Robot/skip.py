@@ -4,16 +4,16 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import YouTube, app
-from AnonX.core.call import Anon
-from AnonX.misc import db
-from AnonX.utils.database import get_loop
-from AnonX.utils.decorators import AdminRightsCheck
-from AnonX.utils.inline.play import (stream_markup,
+from LoverMusic import YouTube, app
+from LoverMusic.core.call import Anon
+from LoverMusic.misc import db
+from LoverMusic.utils.database import get_loop
+from LoverMusic.utils.decorators import AdminRightsCheck
+from LoverMusic.utils.inline.play import (stream_markup,
                                           telegram_markup,
                                           close_keyboard)
-from AnonX.utils.stream.autoclear import auto_clean
-from AnonX.utils.thumbnails import gen_thumb
+from LoverMusic.utils.stream.autoclear import auto_clean
+from LoverMusic.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
