@@ -11,7 +11,7 @@ TEMP_MONGODB = "mongodb+srv://Legend:legendxd@cluster0.y9z7ufo.mongodb.net/?retr
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "Your bot will work on @ll_ll_LegendHacker_IN_ll_ll mongo database..."
+        "Your bot will work on @shubhamsah1 mongo database..."
     )
     temp_client = Client(
         "LoverMusic",
