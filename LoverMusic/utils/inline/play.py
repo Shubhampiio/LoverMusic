@@ -60,11 +60,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="➕ ᴩʟᴀʏʟɪsᴛ ➕",
+                text="🇮🇳 ᴩʟᴀʏʟɪsᴛ ➕",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🔥 sᴜᴩᴩᴏʀᴛ 🔥", url=f"https://t.me/t_c_c_network")
+                text="💫 sᴜᴩᴩᴏʀᴛ 💫", url=f"https://t.me/Lover_Music_Support")
         ],
         [
             InlineKeyboardButton(
@@ -113,11 +113,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="➕ ᴩʟᴀʏʟɪsᴛ ➕",
+                text="🇮🇳 ᴩʟᴀʏʟɪsᴛ 🇮🇳",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🔥 sᴜᴩᴩᴏʀᴛ 🔥", url=f"https://t.me/t_c_c_network"
+                text="💫 sᴜᴩᴩᴏʀᴛ 💫", url=f"https://t.me/Lover_Music_Support"
             )
         ],
         [
@@ -366,11 +366,11 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="➕ ᴩʟᴀʏʟɪsᴛ ➕",
+                text="🇮🇳 ᴩʟᴀʏʟɪsᴛ 🇮🇳",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="🔥 sᴜᴩᴩᴏʀᴛ 🔥", url=f"https://t.me/t_c_c_network"
+                text="💫 sᴜᴩᴩᴏʀᴛ 💫", url=f"https://t.me/Lover_Music_Support"
             )
         ],
         [
