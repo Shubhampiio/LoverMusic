@@ -36,7 +36,7 @@ class LoverMusic (Client):
         LOGGER(__name__).info(f"MusicBot Started as {self.name}")
         try:
             await self.send_photo(
-                config.LOG_GROUP_ID, photo=config.PING_IMG_URL, caption=f"**㊥ ꜰᴀʟʟᴇɴ x ᴍᴜsɪᴄ ㊥**\n\n𖢵 ɪᴅ : `{self.id}`\n𖢵 ɴᴀᴍᴇ : {self.name}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{self.username}"
+                config.LOG_GROUP_ID, photo=config.PING_IMG_URL, caption=f"**㊥ Lover ᴍᴜsɪᴄ ㊥**\n\n𖢵 ɪᴅ : `{self.id}`\n𖢵 ɴᴀᴍᴇ : {self.name}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{self.username}"
             )
             await self.set_bot_commands([
     BotCommand("start", "Start the bot"),
