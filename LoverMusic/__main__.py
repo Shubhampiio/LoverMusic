@@ -7,10 +7,10 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import BANNED_USERS
-from AnonX import LOGGER, app, userbot
-from AnonX.core.call import Anon
-from AnonX.plugins import ALL_MODULES
-from AnonX.utils.database import get_banned_users, get_gbanned
+from LoverMusic import LOGGER, app, userbot
+from LoverMusic.core.call import Anon
+from LoverMusic.plugins import ALL_MODULES
+from LoverMusic.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
 
@@ -23,7 +23,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("AnonX").error(
+        LOGGER("LoverMusic").error(
             "WTF Baby ! Atleast add a pyrogram string, How Cheap..."
         )
         return
@@ -31,7 +31,7 @@ async def init():
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("AnonX").warning(
+        LOGGER("LoverMusic").warning(
             "Spotify Client Id & Secret not added, Chutiya Saala ek itni simple cheej nahi laa paaya."
         )
     try:
@@ -45,8 +45,8 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("AnonX.plugins" + all_module)
-    LOGGER("AnonX.plugins").info(
+        importlib.import_module("LoverMusic.plugins" + all_module)
+    LOGGER("LoverMusic.plugins").info(
         "Necessary Modules Imported Successfully."
     )
     await userbot.start()
@@ -63,10 +63,10 @@ async def init():
     except:
         pass
     await Anon.decorators()
-    LOGGER("AnonX").info("Music Bot Started Successfully, Now Gib your girlfriend chumt to @shubhamsah1")
+    LOGGER("LoverMusic").info("Music Bot Started Successfully, Now Gib your girlfriend chumt to @shubhamsah1")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("AnonX").info("Stopping Music Bot, Bhakk Bhosdike (Gaand Maraa Tu)")
+    LOGGER("LoverMusic").info("Stopping Music Bot, Bhakk Bhosdike (Gaand Maraa Tu)")
