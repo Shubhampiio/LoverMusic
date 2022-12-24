@@ -2,9 +2,9 @@ import asyncio
 from datetime import datetime
 
 import config
-from AnonX import app
-from AnonX.core.call import Anon, autoend
-from AnonX.utils.database import (get_client, is_active_chat,
+from LoverMusic import app
+from LoverMusic.core.call import Anon, autoend
+from LoverMusic.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
@@ -13,7 +13,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from AnonX.core.userbot import assistants
+            from LoverMusic.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
