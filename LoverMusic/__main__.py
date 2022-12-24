@@ -56,7 +56,7 @@ async def init():
             "https://telegra.ph/file/de3464aa7d6bfafdd2dc3.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("AnonX").error(
+        LOGGER("LoverMusic").error(
             "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group else fu*k off. If you ever ended voice chat in log group i will stop working and users will fu*k you up."
         )
         sys.exit()
