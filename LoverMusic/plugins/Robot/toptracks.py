@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
 from config import BANNED_USERS
-from MusicLover import app
+from LoverMusic import app
 from LoverMuser.utils.database import (get_global_tops,
                                        get_particulars, get_userss)
 from LoverMusic.utils.decorators.language import languageCB
