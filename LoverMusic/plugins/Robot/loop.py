@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.utils.database.memorydatabase import (get_loop,
+from LoverMusic import app
+from LoverMusic.utils.database.memorydatabase import (get_loop,
                                                       set_loop)
-from AnonX.utils.decorators import AdminRightsCheck
+from LoverMusic.utils.decorators import AdminRightsCheck
 
 # Commands
 LOOP_COMMAND = get_command("LOOP_COMMAND")
