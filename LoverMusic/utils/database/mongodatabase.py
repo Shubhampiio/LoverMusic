@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from AnonX.core.mongo import mongodb
+from LoverMusic.core.mongo import mongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats
