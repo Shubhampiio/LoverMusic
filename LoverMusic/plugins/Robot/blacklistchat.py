@@ -3,12 +3,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.misc import SUDOERS
-from AnonX.utils.database import (blacklist_chat,
+from LoverMusic import app
+from LoverMusic.misc import SUDOERS
+from LoverMusic.utils.database import (blacklist_chat,
                                        blacklisted_chats,
                                        whitelist_chat)
-from AnonX.utils.decorators.language import language
+from LoverMusic.utils.decorators.language import language
 
 # Commands
 
