@@ -10,22 +10,22 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS, lyrical
 from strings import get_command
-from AnonX import (Apple, Resso, SoundCloud, Spotify, Telegram,
+from LoverMusic import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from AnonX.core.call import Anon
-from AnonX.utils import seconds_to_min, time_to_seconds
-from AnonX.utils.channelplay import get_channeplayCB
-from AnonX.utils.database import is_video_allowed
-from AnonX.utils.decorators.language import languageCB
-from AnonX.utils.decorators.play import PlayWrapper
-from AnonX.utils.formatters import formats
-from AnonX.utils.inline.play import (livestream_markup,
+from LoverMusic.core.call import Anon
+from LoverMusic.utils import seconds_to_min, time_to_seconds
+from LoverMusic.utils.channelplay import get_channeplayCB
+from LoverMusic.utils.database import is_video_allowed
+from LoverMusic.utils.decorators.language import languageCB
+from LoverMusic.utils.decorators.play import PlayWrapper
+from LoverMusic.utils.formatters import formats
+from LoverMusic.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from AnonX.utils.database import is_served_user
-from AnonX.utils.inline.playlist import botplaylist_markup
-from AnonX.utils.logger import play_logs
-from AnonX.utils.stream.stream import stream
+from LoverMusic.utils.database import is_served_user
+from LoverMusic.utils.inline.playlist import botplaylist_markup
+from LoverMusic.utils.logger import play_logs
+from LoverMusic.utils.stream.stream import stream
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
