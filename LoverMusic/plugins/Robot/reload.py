@@ -5,13 +5,13 @@ from pyrogram.types import CallbackQuery, Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
 from strings import get_command
-from AnonX import app
-from AnonX.core.call import Anon
-from AnonX.misc import db
-from AnonX.utils.database import get_authuser_names, get_cmode
-from AnonX.utils.decorators import (ActualAdminCB, AdminActual,
+from LoverMusic import app
+from LoverMusic.core.call import Anon
+from LoverMusic.misc import db
+from LoverMusic.utils.database import get_authuser_names, get_cmode
+from LoverMusic.utils.decorators import (ActualAdminCB, AdminActual,
                                          language)
-from AnonX.utils.formatters import alpha_to_int
+from LoverMusic.utils.formatters import alpha_to_int
 
 ### Multi-Lang Commands
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")
