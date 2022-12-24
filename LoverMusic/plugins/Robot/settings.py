@@ -7,9 +7,9 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
 from config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
                     MUSIC_BOT_NAME, OWNER_ID)
 from strings import get_command
-from AnonX import app
-from AnonX.misc import _boot_
-from AnonX.utils.database import (add_nonadmin_chat,
+from LoverMusic import app
+from LoverMusic.misc import _boot_
+from LoverMusic.utils.database import (add_nonadmin_chat,
                                        cleanmode_off, cleanmode_on,
                                        commanddelete_off,
                                        commanddelete_on,
@@ -24,15 +24,15 @@ from AnonX.utils.database import (add_nonadmin_chat,
                                        save_audio_bitrate,
                                        save_video_bitrate,
                                        set_playmode, set_playtype)
-from AnonX.utils.decorators.admins import ActualAdminCB
-from AnonX.utils.decorators.language import language, languageCB
-from AnonX.utils.inline.settings import (
+from LoverMusic.utils.decorators.admins import ActualAdminCB
+from LoverMusic.utils.decorators.language import language, languageCB
+from LoverMusic.utils.inline.settings import (
     audio_quality_markup, auth_users_markup,
     cleanmode_settings_markup, playmode_users_markup, setting_markup,
     video_quality_markup)
-from AnonX.utils.formatters import get_readable_time
-from AnonX.utils.inline.start import private_panel
-from AnonX.utils.database import get_served_users, get_served_chats
+from LoverMusic.utils.formatters import get_readable_time
+from LoverMusic.utils.inline.start import private_panel
+from LoverMusic.utils.database import get_served_users, get_served_chats
 
 ### Command
 SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
