@@ -1,8 +1,8 @@
-from AnonX.core.bot import AnonXBot
-from AnonX.core.dir import dirr
-from AnonX.core.git import git
-from AnonX.core.userbot import Userbot
-from AnonX.misc import dbb, heroku, sudo
+from LoverMusic.core.bot import AnonXBot
+from LoverMusic.core.dir import dirr
+from LoverMusic.core.git import git
+from LoverMusic.core.userbot import Userbot
+from LoverMusic.misc import dbb, heroku, sudo
 from aiohttp import ClientSession
 
 from .logging import LOGGER
