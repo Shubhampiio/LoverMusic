@@ -3,11 +3,11 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.core.call import Anon
-from AnonX.utils.database import is_music_playing, music_on
-from AnonX.utils.decorators import AdminRightsCheck
-from AnonX.utils.inline.play import close_keyboard
+from LoverMusic import app
+from LoverMusic.core.call import Anon
+from LoverMusic.utils.database import is_music_playing, music_on
+from LoverMusic.utils.decorators import AdminRightsCheck
+from LoverMusic.utils.inline.play import close_keyboard
 
 # Commands
 RESUME_COMMAND = get_command("RESUME_COMMAND")
