@@ -23,7 +23,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = LoverMusic()
+app = AnonXBot()
 
 # Assistant Client
 userbot = Userbot()
