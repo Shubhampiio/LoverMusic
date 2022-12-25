@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
+API_ID = int(getenv("API_ID", "18960528"))
+API_HASH = getenv("API_HASH", "cc0fff577b677c9b2b4de5dd5bc5dfd1")
+BOT_TOKEN = getenv("BOT_TOKEN", "5775568116:AAGcJhAJbJfzw7A4gffER5T6pw2XtPiffhU")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001674765985"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "shubham")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1548904516").split()))
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/LOVER_MUSIC_SUPPORT_GROUP")
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQCwZC3_C9dH5fgl-pet6Gtuukjgg971W_foP-wvKQiWjceTI8BQtwDZIFy2JbCOLWiUhQ5UVNPMU0N9B-qyzRJKShaVc8cUQmcBqijkcoq9JhrnanMOtJWbFz_EWhvjme47Zv3_YWT-jFIpwVQ26bhWgdkt2JxVMYw94s8zgvU2DP4FcWrABZHbPW75KO9p4F1JZJRa5xGXKD2acw6scgNo6ACqFdjm7zmH5uytgqTNfLu8JHIAp5o08vlddihJEdZuikYmUHjWRntoc-lKL1Dphq1mvfubwdOXarEBBWLviKVA_uUAuAa7hOmcY-_2kzM5OEOaqzABc884RqNIhfrsAAAAAUhDsM8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
