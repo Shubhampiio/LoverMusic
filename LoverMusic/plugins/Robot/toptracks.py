@@ -11,7 +11,7 @@ from LoverMusic.utils.decorators.language import languageCB
 from LoverMusic.utils.inline.playlist import (botplaylist_markup,
                                               failed_top_markup,
                                               top_play_markup)
-from .utils.stream.stream import stream
+from LoverMusic.utils.stream.stream import stream
 
 loop = asyncio.get_running_loop()
 
