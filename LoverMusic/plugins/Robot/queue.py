@@ -9,7 +9,7 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from  import app
+from LoverMusic import app
 from LoverMusic.misc import db
 from LoverMusic.utils import (Anonbin, get_channeplayCB,
                               seconds_to_min)
