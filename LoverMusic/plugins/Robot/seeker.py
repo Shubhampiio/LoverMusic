@@ -7,7 +7,7 @@ from LoverMusic.misc import db
 from LoverMusic.utils.database import (get_active_chats, get_lang,
                                        is_music_playing)
 from LoverMusic.utils.formatters import seconds_to_min
-from LoveMusic.utils.inline import (stream_markup_timer,
+from LoverMusic.utils.inline import (stream_markup_timer,
                                      telegram_markup_timer)
 
 from LoverMusic.plugins.Robot.callback import wrong
